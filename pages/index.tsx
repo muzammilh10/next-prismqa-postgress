@@ -54,7 +54,6 @@ type Props = {
 
 
 const Blog: React.FC<Props> = (props) => {
-  console.log({process:process.env.NODE_ENV})
 
   console.log({ props })
   return (
@@ -67,7 +66,6 @@ const Blog: React.FC<Props> = (props) => {
               <Post post={post} />
             </div>
           ))}
-          vdvjesydves
         </main>
       </div>
       <style jsx>{`
